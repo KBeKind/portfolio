@@ -45,11 +45,11 @@ export default function Home() {
         </div>
       </div>
       {/* <hr className="mx-8 my-4" /> */}
-
-      <div className="m-4 p-4">
-        <p>Certificates</p>
+      <div className="bg-gradient-to-r from-sky-800 to-sky-950 p-4">
+        <div className="m-4 p-4">
+          <p>Certificates</p>
+        </div>
       </div>
-      <hr className="mx-8 my-4" />
 
       <div className="m-4 p-4">
         <p className="text-3xl mb-4">Recent Projects</p>
