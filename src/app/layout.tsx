@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`inter.className text-xl bg-sky-950 text-slate-100 container mx-auto p-4`}
+        className={`inter.className text-xl bg-sky-950 text-slate-100 container mx-auto`}
       >
         {children}
       </body>
