@@ -8,7 +8,7 @@ export default function Home() {
         <p className="text-3xl mx-4 my-3">KBeKind</p>
       </div>
       <hr className="m-5" />
-      <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 m-4 p-4 flex">
+      <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 md:m-4 p-4 me-8 ms-3 my-2 flex">
         <p className="">
           Software developer with a passion for learning, creating and
           connecting with others. Eager to work with a skilled development team
@@ -18,32 +18,26 @@ export default function Home() {
           deadlines.
         </p>
       </div>
-      <div className="">
-        <br />
-      </div>
 
-      <div className="">
-        <br />
-      </div>
-      <div className="mx-6 xl:flex xl:mx-0 group">
+      <div className="mx-6 xl:flex xl:mx-0 group grid m:justify-center xl:justify-center justify-none m:mx-3">
         <Link
           href="https://github.com/KBeKind"
           target="_blank"
-          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-sky-700 text-white duration-300 group-hover:bg-sky-900"
+          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-600 to-sky-900 text-white duration-300 group-hover:bg-sky-900"
         >
           Github: github.com/KBeKind
         </Link>
         <Link
           href="https://www.linkedin.com/in/kyle-riebeling/"
           target="_blank"
-          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-sky-700 text-white duration-300 group-hover:bg-sky-900"
+          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-600 to-sky-900 text-white duration-300 group-hover:bg-sky-900"
         >
           Linkedin: linkedin.com/in/kyle-riebeling
         </Link>
         <Link
           href="https://www.hackerrank.com/KBeKind"
           target="_blank"
-          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:bg-sky-700 text-white duration-300 group-hover:bg-sky-900"
+          className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-600 to-sky-900 text-white duration-300 group-hover:bg-sky-900"
         >
           HackerRank: hackerrank.com/KBeKind
         </Link>
@@ -58,18 +52,37 @@ export default function Home() {
 
       <div className="m-4 p-4">
         <p className="text-3xl mb-4">Recent Projects</p>
-        <div className="lg:flex group">
-          <div className="m-4 p-4 w-full lg:w-1/2 bg-sky-800 rounded-xl shadow-xl justify-center duration-500 hover:shadow-3xl hover:shadow-sky-400 lg:hover:w-4/6">
-            <Link href="/resoled">Resoled</Link>
-            <img src="/images/resoled-home.jpg" alt="ReSoled Home Page" />
+        <div className="lg:flex group/1">
+          <div className="relative group w-full lg:w-1/2 bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8">
+            <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
+            <div className="relative px-1 py-1 leading-none flex items-top justify-center space-x-6">
+              <div className="bg-sky-700 rounded h-full p-4">
+                <Link href="/resoled" className="m-2">
+                  Resoled
+                </Link>
+                <img
+                  src="/images/resoled-home.jpg"
+                  alt="ReSoled Home Page"
+                  className="m-2"
+                />
+              </div>
+            </div>
           </div>
 
-          <div className="m-4 p-4 w-full lg:w-1/2 bg-sky-800 rounded-xl shadow-xl justify-center duration-500 hover:shadow-3xl hover:shadow-sky-400 lg:hover:w-4/6 ">
-            <Link href="/gardenparty">Garden Party</Link>
-            <img
-              src="/images/garden-party.jpg"
-              alt="Garden Party Create a Plant Page"
-            />
+          <div className="relative group w-full lg:w-1/2 bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8 ">
+            <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
+            <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
+              <div className="bg-sky-700 rounded h-full p-4">
+                <Link href="/gardenparty" className="m-2">
+                  Garden Party
+                </Link>
+                <img
+                  src="/images/garden-party.jpg"
+                  alt="Garden Party Create a Plant Page"
+                  className="m-2"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
