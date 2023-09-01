@@ -9,15 +9,15 @@ export default function Home() {
             <p className="text-5xl mx-4 my-3">Kyle Riebeling</p>
             <p className="text-3xl mx-4 my-3">KBeKind</p>
           </div>
-          <hr className="m-5" />
-          <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 md:m-4 p-4 me-8 ms-3 my-2 flex">
+          <hr className="sm:m-5" />
+          <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 md:m-4 p-4 ms-0 me-8 ms-3 my-2 flex">
             <p className="">
-              Software developer with a passion for learning, creating and
-              connecting with others. Eager to work with a skilled development
-              team to produce high quality code for robust applications.
-              Experience with full-stack development, working cooperatively on a
-              management team, and completing complex projects within the scope
-              of assigned deadlines.
+              Software developer with a passion for learning, creating, and
+              connecting with others. Experience with full-stack development,
+              working cooperatively on a management team, and completing complex
+              projects within the scope of assigned deadlines. Eager to work
+              with a skilled development team to produce high quality code for
+              robust applications.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Home() {
       {/* <hr className="mx-8 my-4" /> */}
       <div className="bg-gradient-to-br from-sky-950 to-sky-500 p-4">
         <div className="mx-4">
-          <hr className="m-5" />
+          <hr className="sm:m-5" />
           {/* <div className="m-4 p-4">
           <p>Certificates</p>
         </div> */}
