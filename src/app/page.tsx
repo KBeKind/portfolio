@@ -25,21 +25,21 @@ export default function Home() {
             <Link
               href="https://github.com/KBeKind"
               target="_blank"
-              className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
+              className="sm:m-4 my-4 p-4 border-2 shadow-xl sm:w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
             >
               Github: github.com/KBeKind
             </Link>
             <Link
               href="https://www.linkedin.com/in/kyle-riebeling/"
               target="_blank"
-              className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
+              className=" sm:m-4 my-4 p-4 border-2 shadow-xl sm:w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
             >
               Linkedin: linkedin.com/in/kyle-riebeling
             </Link>
             <Link
               href="https://www.hackerrank.com/KBeKind"
               target="_blank"
-              className="m-4 p-4 border-2 shadow-xl w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
+              className="sm:m-4 my-4 p-4 border-2 shadow-xl sm:w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
             >
               HackerRank: hackerrank.com/KBeKind
             </Link>
@@ -56,8 +56,8 @@ export default function Home() {
           <div className="m-4 p-4">
             <p className="text-3xl mb-5">Recent Projects</p>
             <div className="lg:flex group/1">
-              <div className="relative group w-full lg:w-1/2 bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8">
-                <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
+              <div className="relative group w-full lg:w-fit bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90  hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8">
+                <div className="absolute -inset-1 w-full bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
                 <div className="relative px-1 py-1 leading-none flex items-top justify-center space-x-6">
                   <div className="bg-sky-700 rounded h-full p-4">
                     <Link href="/resoled" className="m-2 text-2xl">
@@ -65,14 +65,14 @@ export default function Home() {
                       <img
                         src="/images/resoled-home.jpg"
                         alt="ReSoled Home Page"
-                        className="m-2"
+                        className="me-2 mt-2"
                       />
                     </Link>
                   </div>
                 </div>
               </div>
 
-              <div className="relative group w-full lg:w-1/2 bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8 ">
+              <div className="relative group w-full lg:w-fit bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8 ">
                 <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
                 <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
                   <div className="bg-sky-700 rounded h-full p-4">
@@ -81,7 +81,7 @@ export default function Home() {
                       <img
                         src="/images/garden-party.jpg"
                         alt="Garden Party Create a Plant Page"
-                        className="m-2"
+                        className="me-2 mt-2"
                       />
                     </Link>
                   </div>
