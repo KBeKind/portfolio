@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
                   <div className="bg-sky-700 rounded h-full p-4">
                     <Link
-                      href="https://leet-receipt-5seh5inob-kbekind.vercel.app/"
+                      href="https://leet-receipt-git-main-kbekind.vercel.app/"
                       className="m-2 text-2xl"
                     >
                       leet receipt
