@@ -56,12 +56,34 @@ export default function Home() {
           <div className="m-4 p-4">
             <p className="text-3xl mb-5">Recent Projects</p>
             <div className="lg:flex group/1">
+              <div className="relative group w-full lg:w-fit bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90 hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8 ">
+                <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
+                <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
+                  <div className="bg-sky-700 rounded h-full p-4">
+                    <Link
+                      href="https://leet-receipt-5seh5inob-kbekind.vercel.app/"
+                      className="m-2 text-2xl"
+                    >
+                      leet receipt
+                      <img
+                        src="/images/leet-receipt.jpg"
+                        alt="Garden Party Create a Plant Page"
+                        className="me-2 mt-2"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               <div className="relative group w-full lg:w-fit bg-sky-700 justify-center duration-500 hover:!scale-105 lg:group-hover/1:scale-90  hover:rounded lg:group-hover/1:m-4 hover:mb-8 hover:mt-8">
                 <div className="absolute -inset-1 w-full bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
                 <div className="relative px-1 py-1 leading-none flex items-top justify-center space-x-6">
                   <div className="bg-sky-700 rounded h-full p-4">
-                    <Link href="/resoled" className="m-2 text-2xl">
-                      Resoled
+                    <Link
+                      href="https://github.com/KBeKind/resoled"
+                      className="m-2 text-2xl"
+                    >
+                      ReSoled
                       <img
                         src="/images/resoled-home.jpg"
                         alt="ReSoled Home Page"
@@ -76,7 +98,10 @@ export default function Home() {
                 <div className="absolute -inset-1 bg-gradient-to-b from-sky-300 to-sky-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500 group-hover:duration-500"></div>
                 <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
                   <div className="bg-sky-700 rounded h-full p-4">
-                    <Link href="/gardenparty" className="m-2 text-2xl">
+                    <Link
+                      href="https://github.com/KBeKind/java-gard"
+                      className="m-2 text-2xl"
+                    >
                       Garden Party
                       <img
                         src="/images/garden-party.jpg"
