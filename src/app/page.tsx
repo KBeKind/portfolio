@@ -12,12 +12,12 @@ export default function Home() {
           <hr className="sm:m-5" />
           <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 md:m-4 p-4 ms-0 me-8 ms-3 my-2 flex">
             <p className="">
-              Software developer with a passion for learning, creating, and
-              connecting with others. Experience with full-stack development,
-              working cooperatively on a management team, and completing complex
-              projects within the scope of assigned deadlines. Eager to work
-              with a skilled development team to produce high quality code for
-              robust applications.
+              Software engineer with a passion for learning, creating, and
+              connecting with others. Experience with teaching software
+              development, building full-stack, working cooperatively on a
+              management team, and completing complex projects within the scope
+              of assigned deadlines. Eager to work with a skilled development
+              team to produce high quality code for robust applications.
             </p>
           </div>
 
