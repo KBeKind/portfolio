@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EmailLink from "./components//EmailLink";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
           <div className="my-4">
             <p className="text-5xl mx-4 my-3">Kyle Riebeling</p>
             <p className="text-3xl mx-4 my-3">KBeKind</p>
+            <EmailLink />
           </div>
           <hr className="sm:m-5" />
           <div className="text-justify w-full md:w-5/6 lg:w-3/4 xl:w-1/2 md:m-4 p-4 ms-0 me-8 ms-3 my-2 flex">
