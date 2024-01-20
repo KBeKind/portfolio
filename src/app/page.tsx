@@ -56,7 +56,7 @@ export default function Home() {
               </div>
               {/* comment for help visual separation */}
 
-              <div className="lg:flex">
+              {/* <div className="lg:flex">
                 <ProjectPanelContainer
                   name="Resoled"
                   imageSource="/images/resoled-home.jpg"
@@ -68,17 +68,17 @@ export default function Home() {
                   imageSource="/images/garden-party.jpg"
                   link="https://github.com/KBeKind/java-gard"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
         <div className="mx-4">
-          <hr className="sm:m-5" />
+          {/* <hr className="sm:m-5" />
           <div className="m-4 p-4">
             <p className="text-3xl mb-5">Certifications</p>
             <CertificationsHolder />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
