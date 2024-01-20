@@ -38,18 +38,21 @@ export default function Home() {
               <div className="lg:flex">
                 <ProjectPanelContainer
                   name="leet receipt"
+                  tech="React, Next.js, TypeScript, Tailwind CSS, Solana"
                   imageSource="/images/leet-receipt.jpg"
                   link="https://leet-receipt-git-main-kbekind.vercel.app/"
                 />
 
                 <ProjectPanelContainer
                   name="Resoled"
+                  tech="Java, JavaScript, Spring Boot, Thymeleaf, Bootstrap, CSS"
                   imageSource="/images/resoled-home.jpg"
                   link="https://github.com/KBeKind/resoled"
                 />
 
                 <ProjectPanelContainer
                   name="Garden Party"
+                  tech="Java, Spring Boot, Thymeleaf, Bootstrap, CSS"
                   imageSource="/images/garden-party.jpg"
                   link="https://github.com/KBeKind/java-gard"
                 />

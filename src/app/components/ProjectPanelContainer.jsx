@@ -9,6 +9,7 @@ const ProjectPanelContainer = (props) => {
       <div className="relative px-1 py-1  leading-none flex items-top justify-center space-x-6">
         <ProjectPanel
           name={props.name}
+          tech={props.tech}
           imageSource={props.imageSource}
           link={props.link}
         />
