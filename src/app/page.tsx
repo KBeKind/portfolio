@@ -37,15 +37,30 @@ export default function Home() {
             <div className=" group/1">
               <div className="lg:flex">
                 <ProjectPanelContainer
-                  name="leet receipt"
+                  name="Resource Manager React Front-End."
+                  tech="React, Next.js, Javascript, Tailwind CSS"
+                  imageSource="/images/company-react.jpg"
+                  link="https://github.com/KBeKind/company-project-react-nextjs"
+                />
+                <ProjectPanelContainer
+                  name="Resource Manager .Net Front-End & Back-End"
+                  tech="C#, DotNet, Bootstrap"
+                  imageSource="/images/company-dotnet.jpg"
+                  link="https://github.com/KBeKind/company-project-dotnet"
+                />
+                <ProjectPanelContainer
+                  name="leet receipt (live project on Solana devnet)"
                   tech="React, Next.js, TypeScript, Tailwind CSS, Solana"
                   imageSource="/images/leet-receipt.jpg"
                   link="https://leet-receipt-git-main-kbekind.vercel.app/"
                 />
+              </div>
+              {/* comment for help visual separation */}
 
+              <div className="lg:flex">
                 <ProjectPanelContainer
                   name="Resoled"
-                  tech="Java, JavaScript, Spring Boot, Thymeleaf, Bootstrap, CSS"
+                  tech="Java, Spring Boot, Thymeleaf, JavaScript, Bootstrap, CSS"
                   imageSource="/images/resoled-home.jpg"
                   link="https://github.com/KBeKind/resoled"
                 />
@@ -56,22 +71,16 @@ export default function Home() {
                   imageSource="/images/garden-party.jpg"
                   link="https://github.com/KBeKind/java-gard"
                 />
+
+                <ProjectPanelContainer
+                  name="Fun Blasters"
+                  tech="Python, PyGame"
+                  imageSource="/images/fun-blasters.jpg"
+                  link="https://github.com/KBeKind/fun-blasters"
+                />
+
+                {/* comment for help visual separation */}
               </div>
-              {/* comment for help visual separation */}
-
-              {/* <div className="lg:flex">
-                <ProjectPanelContainer
-                  name="Resoled"
-                  imageSource="/images/resoled-home.jpg"
-                  link="https://github.com/KBeKind/resoled"
-                />
-
-                <ProjectPanelContainer
-                  name="Garden Party"
-                  imageSource="/images/garden-party.jpg"
-                  link="https://github.com/KBeKind/java-gard"
-                />
-              </div> */}
             </div>
           </div>
         </div>
