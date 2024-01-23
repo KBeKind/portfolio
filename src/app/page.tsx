@@ -37,14 +37,14 @@ export default function Home() {
             <div className=" group/1">
               <div className="lg:flex">
                 <ProjectPanelContainer
-                  name="Resource Manager React Front-End."
+                  name="Resource Manager: React Front-End"
                   tech="React, Next.js, Javascript, Tailwind CSS"
                   imageSource="/images/company-react.jpg"
                   link="https://github.com/KBeKind/company-project-react-nextjs"
                 />
                 <ProjectPanelContainer
-                  name="Resource Manager .Net Front-End & Back-End"
-                  tech="C#, DotNet, Bootstrap"
+                  name="Resource Manager: .Net Front-End & Back-End"
+                  tech="C#, DotNet, Bootstrap, MySQL"
                   imageSource="/images/company-dotnet.jpg"
                   link="https://github.com/KBeKind/company-project-dotnet"
                 />
@@ -60,14 +60,14 @@ export default function Home() {
               <div className="lg:flex">
                 <ProjectPanelContainer
                   name="Resoled"
-                  tech="Java, Spring Boot, Thymeleaf, JavaScript, Bootstrap, CSS"
+                  tech="Java, Spring Boot, Thymeleaf, JavaScript, Bootstrap, CSS, MySQL "
                   imageSource="/images/resoled-home.jpg"
                   link="https://github.com/KBeKind/resoled"
                 />
 
                 <ProjectPanelContainer
                   name="Garden Party"
-                  tech="Java, Spring Boot, Thymeleaf, Bootstrap, CSS"
+                  tech="Java, Spring Boot, Thymeleaf, Bootstrap, CSS, MySQL"
                   imageSource="/images/garden-party.jpg"
                   link="https://github.com/KBeKind/java-gard"
                 />
