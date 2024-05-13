@@ -9,7 +9,7 @@ const Card = () => {
         Sandy Toepfer is the best mom ever!
       </div>
       <div className="bg-indigo-600 p-5 rounded-md m-4">
-        HAPPY MOTHER'S DAY!
+        HAPPY MOTHER&apos;S DAY!
         <br />
         I love you Mom!
         <br />
