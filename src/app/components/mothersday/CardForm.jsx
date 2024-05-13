@@ -66,7 +66,7 @@ const CardForm = () => {
         <div>
           Im sorry your answer was incorrect.
           <br />
-          The correct answer rhymes with "Dandy Prepfer"
+          The correct answer rhymes with &quot;Dandy Prepfer&quot;
         </div>
       )}
     </div>
