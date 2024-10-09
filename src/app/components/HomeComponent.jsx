@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 import EmailLink from "./EmailLink";
-import LinkBar from "./LinkBar";
+//import LinkBar from "./LinkBar";
 import ProjectPanelContainer from "./ProjectPanelContainer";
 import CertificationsLinkBar from "./CertificationsLinkBar";
 
@@ -42,10 +42,10 @@ const HomeComponent = () => {
               team to produce high quality code for robust applications.
             </p>
           </div>
-          <LinkBar
+          {/* <LinkBar
             onCertificationsClick={toggleCertifications}
             showCertifications={showCertifications}
-          />
+          /> */}
           <div
             className={`transform transition-all duration-1000 ease-in-out ${
               showCertifications
