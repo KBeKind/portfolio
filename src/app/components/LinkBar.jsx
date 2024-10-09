@@ -27,13 +27,13 @@ const LinkBar = ({ onCertificationsClick, showCertifications }) => {
       >
         Github: github.com/KBeKind
       </Link>
-      <Link
-        href="https://www.linkedin.com/in/kyle-riebeling/"
+      {/* <Link
+        href="https://www.linkedin.com/in//"
         target="_blank"
         className=" sm:m-4 my-4 p-4 border-2 shadow-xl sm:w-96 flex-none text-center hover:!bg-gradient-to-b from-sky-500 to-sky-800 text-white duration-300 group-hover:bg-sky-800"
       >
-        Linkedin: linkedin.com/in/kyle-riebeling
-      </Link>
+        Linkedin: linkedin.com/in/
+      </Link> */}
     </div>
   );
 };

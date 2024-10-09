@@ -27,7 +27,7 @@ const HomeComponent = () => {
       <div className="bg-gradient-to-bl from-sky-500 to-sky-950 p-4">
         <div className="mx-4">
           <div className="my-4">
-            <p className="text-5xl mx-4 my-3">Kyle Riebeling</p>
+            <p className="text-5xl mx-4 my-3"></p>
             <p className="text-3xl mx-4 my-3">KBeKind</p>
             <EmailLink />
           </div>

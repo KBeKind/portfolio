@@ -17,10 +17,10 @@ const CardForm = () => {
 
     const inputVal = inputValue.toLowerCase();
     if (
-      inputVal === "sandy" ||
-      inputVal === "sandra" ||
-      inputVal === "sandy toepfer" ||
-      inputVal === "sandra toepfer"
+      inputVal === "" ||
+      inputVal === "" ||
+      inputVal === "" ||
+      inputVal === ""
     ) {
       setAnsweredWrong(false);
       setAnsweredCorrect(true);
